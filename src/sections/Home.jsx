@@ -78,9 +78,9 @@ export default function home() {
 
     <div className='relative z-10 h-full w-full max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2'>
       <div className='flex flex-col relative justify-center h-full text-center lg:text-left'>
-        <div className='w-full mx-auto lg:pr-20 max-w-3xl'>
+        <div className='w-full mx-auto lg:pr-20 max-w-3xl lg:mt-12'>
           <motion.div
-          className='mb-3 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-white tracking-wide min-h-[1.6em]'
+          className='mb-1 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-white tracking-wide min-h-[1.6em]'
           initial={{opacity:0, y:12}}
           animate={{opacity:1, y:0}}
           transition={{duration: 0.6}}
@@ -105,7 +105,7 @@ export default function home() {
             <br />
             <span className='text-white font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl lg:whitespace-nowrap'>Yashoda</span>
           </motion.h1>
-          <motion.p className='mt-6 text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl lg:mx-0 mx-auto'
+          <motion.p className='mt-4 text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl lg:mx-0 mx-auto'
           initial={{opacity: 0, y:20}}
           animate={{opacity: 1, y:0}}
           transition={{delay: 0.4, duration: 0.8}}
@@ -113,7 +113,7 @@ export default function home() {
             I craft modern, scalable, and lightning-fast web applications that transform complex ideas into meaningful digital experiences.
           </motion.p>
 
-          <motion.div className='mt-10 flex flex-wrap items-center justify-center lg:justify-start gap-6'
+          <motion.div className='mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-6'
           initial={{opacity:0}}
           animate={{opacity:1}}
           transition={{delay:0.8, duration:0.8}}
@@ -129,7 +129,7 @@ export default function home() {
             >My Resume</a>
           </motion.div>
 
-          <div className='mt-10 flex gap-5 text-2xl md:text-3xl justify-center lg:justify-start'>
+          <div className='mt-8 flex gap-5 text-2xl md:text-3xl justify-center lg:justify-start'>
             {socials.map(({Icon, label, href}) => {
               return (
               <motion.a 
