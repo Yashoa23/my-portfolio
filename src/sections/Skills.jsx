@@ -96,7 +96,7 @@ export default function Skills() {
 
 
   return (
-    <section id="Skill"
+    <section id="skills"
     ref={sectionRef}
      className="h-1/2 w-full pb-8 flex flex-col items-center  justify-center relative bg-black text-white overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">

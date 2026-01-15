@@ -73,9 +73,11 @@ export default function Contact() {
     }
   }
 
+  console.log(SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY);
+
   return(
     <section id="contact"
-    className="w-full min-h-screen relative bg-black overflow-hidden text-white py-20 px-6 md:px-20 flex flex-col
+    className="w-full min-h-screen relative bg-black overflow-hidden text-white py-7 px-6 md:px-20 flex flex-col
     md:flex-row items-center gap-10"
     >
       <ParticalsBackground />
@@ -187,7 +189,7 @@ export default function Contact() {
 
               {status && (
                 <p className={`text-sm ${status === 'success' ? 'text-green-400' : status === 'error' ? 'text-red-400' : 'text-yellow-400'}`}>
-                  {status === 'sending' ? 'sending...' : status === 'success' ? 'Message sent successfully ✅' : 'Something went wrong ❌'}
+                  {status === 'sending' ? 'sending...' : status === 'success' ? 'Message sent successfully. ✅' : 'Oops! Something went wrong. ❌'}
                   </p>
               )}
 

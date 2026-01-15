@@ -69,7 +69,7 @@ export default function Projects() {
   const activeProjects = projects[activeIndex];
 
   return (
-    <section id="project"
+    <section id="projects"
       ref={sceneRef}
       className="relative text-white "
       style={{
