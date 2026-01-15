@@ -4,9 +4,9 @@ import {motion} from 'framer-motion';
 
 
 const socials = [
-  {Icon : FaXTwitter , label : 'X', href : 'https://twitter.com'},
-  {Icon : FaLinkedin , label : 'LinkedIn', href : 'https://linkedin.com'},
-  {Icon : FaGithub , label : 'GitHub', href : 'https://github.com'}
+  {Icon : FaXTwitter , label : 'X', href : 'https://x.com/Neha8890'},
+  {Icon : FaLinkedin , label : 'LinkedIn', href : 'https://www.linkedin.com/in/yashoda-frontend/'},
+  {Icon : FaGithub , label : 'GitHub', href : 'https://github.com/Yashoa23'}
 ];
 
 
